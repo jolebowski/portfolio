@@ -9,17 +9,17 @@ const data = [
   {
     id: 1,
     icon: <FaGithub className="social-icon"></FaGithub>,
-    url: "https://www.twitter.com",
+    url: "https://github.com/jolebowski",
   },
   {
     id: 2,
     icon: <FaLinkedin className="social-icon"></FaLinkedin>,
-    url: "https://www.twitter.com",
+    url: "https://www.linkedin.com/in/jordan-moreira-30ba6757/",
   },
   {
     id: 3,
     icon: <FaTwitterSquare className="social-icon"></FaTwitterSquare>,
-    url: "https://www.twitter.com",
+    url: "https://twitter.com/iamjomoreira",
   },
 ]
 const links = data.map(link => {
