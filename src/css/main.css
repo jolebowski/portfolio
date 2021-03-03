@@ -154,7 +154,7 @@ button:focus {
     color: var(--clr-primary-5);
     text-transform: uppercase;
     text-decoration: none;
-    right: 4.75%;
+    left: 4.75%;
 }
 .toggle-btn {
     font-size: 2rem;
