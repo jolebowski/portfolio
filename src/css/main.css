@@ -573,3 +573,70 @@ Sidebar Animation
   color: var(--clr-black);
   font-family: var(--ff-secondary);
 }
+
+/* About */
+.container-about{
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 768px) {
+  .container-about{
+    max-width: 768px;;
+  }
+}
+@media (min-width: 1024px){
+  .container-about{
+      max-width: 1024px;
+  }
+}
+@media (min-width: 782px){
+  .about-content {
+      flex-wrap: nowrap;
+  }
+}
+.about-content{
+  display: flex;
+  margin-bottom: 28px;
+  flex-wrap: wrap;
+}
+.column{
+  flex-grow: 1;
+  min-width: 0;
+  word-break: break-word;
+  overflow-wrap: break-word;
+}
+@media (min-width: 782px){
+  .column:not(:first-child) {
+      margin-left: 32px;
+  }
+}
+@media (min-width: 600px){
+  .column{
+    flex-basis: calc(50% - 16px);
+    flex-grow: 0;
+  }
+}
+@media (max-width: 640px){
+  .container-about{
+    max-width: 640px;
+  }
+  .column:not(:first-child) {
+    margin-left: 32px;
+  }
+}
+.span-photo{
+  position: relative;
+  overflow: hidden;
+  max-width: 100%;
+  width: 750px;
+}
+.span-photo-1{
+  width: 100%;
+  padding-bottom: 100%;
+}
