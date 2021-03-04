@@ -36,6 +36,10 @@
     --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
     --max-width: 1170px;
     --fixed-width: 700px;
+    --columns: 12;
+    --outer-gap: 7vw;
+    --inner-gap: 1vw;
+    --outer-col: calc(var(--outer-gap) - var(--inner-gap));
   }
   /*
   =============== 
@@ -58,7 +62,7 @@ body {
   font-size: 0.875rem;
   margin-top: 5rem;
 }
-ul {
+ol,ul {
   list-style-type: none;
 }
 a {
@@ -467,4 +471,102 @@ Sidebar Animation
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 0.85rem;
+}
+
+/* resume */
+
+.resume-categories{
+  width: 100%;
+  display: grid;
+  grid-template-columns: var(--outer-col) repeat(var(--columns),minmax(0,1fr)) var(--outer-col );
+}
+
+@media screen and (min-width: 896px) {
+  .resume-category:first-child {
+    grid-column: 2 / span 4;
+  }
+  .resume-category{
+    grid-column: span 4 / auto;
+    margin-top: 0px;
+  }
+}
+
+@media screen and (min-width: 896px) {
+  .resume-category-title{
+    font-size: 45px;
+    line-height: 54px;
+  }
+  .resume-sub-category > h3{
+    font-size: 27px;
+    line-height: 30px;
+  }
+  .resume-sub-category > h4{
+    font-size: 27px;
+    line-height: 30px;
+  }
+}
+/* .resume-category {
+  grid-column: 2 / -2;
+  margin-top: 100px;
+} */
+.resume-category-title {
+  font-family: var(--ff-secondary);
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 45px;
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+  background: var(--clr-white);
+}
+.resume-category > ul:first-child {
+  margin-top: 35px;
+}
+.resume-sub-category:first-child{
+  margin-top: 0px;
+}
+
+.resume-sub-category{
+  position: relative;
+  padding-left: 17px;
+  margin-top: 70px;
+}
+
+.resume-sub-category::before{
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 1px;
+  height: 100%;
+  background:var(--clr-black);
+}
+.resume-sub-category > h3{
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 28px;
+  font-family: var(--ff-secondary);
+}
+.resume-sub-category > h4{
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 28px;
+  font-family: var(--ff-secondary);
+}
+.resume-sub-category > h5{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  margin-top: 10px;
+  font-family: var(--ff-secondary);
+}
+.resume-list{
+  margin-top: 10px;
+}
+.resume-item{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: var(--clr-black);
+  font-family: var(--ff-secondary);
 }
