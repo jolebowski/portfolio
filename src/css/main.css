@@ -481,17 +481,13 @@ Sidebar Animation
   grid-template-columns: var(--outer-col) repeat(var(--columns),minmax(0,1fr)) var(--outer-col );
 }
 
-@media screen and (min-width: 896px) {
-  .resume-category:first-child {
-    grid-column: 2 / span 4;
-  }
-  .resume-category{
-    grid-column: span 4 / auto;
-    margin-top: 0px;
+@media screen and (max-width: 1024px) {
+  .resume-category {
+    grid-column: 2 / -2;
+    margin-top: 100px;
   }
 }
-
-@media screen and (min-width: 896px) {
+@media (min-width: 768px) {
   .resume-category-title{
     font-size: 45px;
     line-height: 54px;
@@ -504,10 +500,17 @@ Sidebar Animation
     font-size: 27px;
     line-height: 30px;
   }
+  .resume-category:first-child {
+    grid-column: 2 / span 4;
+  }
+  .resume-category{
+    grid-column: span 4 / auto;
+    margin-top: 0px;
+  }
 }
-.resume-category {
-  grid-column: 2 / -2;
-  margin-top: 100px;
+
+.resume-category:first-child {
+  margin-top: 0px;
 }
 .resume-category-title {
   font-family: var(--ff-secondary);

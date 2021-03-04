@@ -16,10 +16,10 @@ const Resume = () => {
                         <h4>École Supérieure du Digital</h4>
                         <h5>Bachelor Chargé de Projet Digital</h5>
                         <ol className="resume-list">
-                            <li class="resume-item">Art Direction</li>
-                            <li class="resume-item">Art Direction</li>
-                            <li class="resume-item">Art Direction</li>
-                            <li class="resume-item">Art Direction</li>
+                            <li className="resume-item">Art Direction</li>
+                            <li className="resume-item">Art Direction</li>
+                            <li className="resume-item">Art Direction</li>
+                            <li className="resume-item">Art Direction</li>
                         </ol>
                     </li>
                     <li className="resume-sub-category">
@@ -27,10 +27,10 @@ const Resume = () => {
                         <h4>École Supérieure du Digital</h4>
                         <h5>Bachelor Chargé de Projet Digital</h5>
                         <ol className="resume-list">
-                            <li class="resume-item">Art Direction</li>
-                            <li class="resume-item">Art Direction</li>
-                            <li class="resume-item">Art Direction</li>
-                            <li class="resume-item">Art Direction</li>
+                            <li className="resume-item">Art Direction</li>
+                            <li className="resume-item">Art Direction</li>
+                            <li className="resume-item">Art Direction</li>
+                            <li className="resume-item">Art Direction</li>
                         </ol>
                     </li>
                     <li className="resume-sub-category">
@@ -38,10 +38,10 @@ const Resume = () => {
                         <h4>École Supérieure du Digital</h4>
                         <h5>Bachelor Chargé de Projet Digital</h5>
                         <ol className="resume-list">
-                            <li class="resume-item">Art Direction</li>
-                            <li class="resume-item">Art Direction</li>
-                            <li class="resume-item">Art Direction</li>
-                            <li class="resume-item">Art Direction</li>
+                            <li className="resume-item">Art Direction</li>
+                            <li className="resume-item">Art Direction</li>
+                            <li className="resume-item">Art Direction</li>
+                            <li className="resume-item">Art Direction</li>
                         </ol>
                     </li>
                 </ol>
@@ -54,10 +54,10 @@ const Resume = () => {
                         <h4>Lorem Ipsum</h4>
                         <h5>Lorem Ipsum</h5>
                         <ol className="resume-list">
-                            <li class="resume-item">Art Direction</li>
-                            <li class="resume-item">Art Direction</li>
-                            <li class="resume-item">Art Direction</li>
-                            <li class="resume-item">Art Direction</li>
+                            <li className="resume-item">Art Direction</li>
+                            <li className="resume-item">Art Direction</li>
+                            <li className="resume-item">Art Direction</li>
+                            <li className="resume-item">Art Direction</li>
                         </ol>
                     </li>
                     <li className="resume-sub-category">
@@ -65,10 +65,10 @@ const Resume = () => {
                         <h4>Lorem Ipsum</h4>
                         <h5>Lorem Ipsum</h5>
                         <ol className="resume-list">
-                            <li class="resume-item">Art Direction</li>
-                            <li class="resume-item">Art Direction</li>
-                            <li class="resume-item">Art Direction</li>
-                            <li class="resume-item">Art Direction</li>
+                            <li className="resume-item">Art Direction</li>
+                            <li className="resume-item">Art Direction</li>
+                            <li className="resume-item">Art Direction</li>
+                            <li className="resume-item">Art Direction</li>
                         </ol>
                     </li>
                     <li className="resume-sub-category">
@@ -76,10 +76,10 @@ const Resume = () => {
                         <h4>Lorem Ipsum</h4>
                         <h5>Lorem Ipsum</h5>
                         <ol className="resume-list">
-                            <li class="resume-item">Lorem Ipsum</li>
-                            <li class="resume-item">Lorem Ipsum</li>
-                            <li class="resume-item">Lorem Ipsum</li>
-                            <li class="resume-item">Lorem Ipsum</li>
+                            <li className="resume-item">Lorem Ipsum</li>
+                            <li className="resume-item">Lorem Ipsum</li>
+                            <li className="resume-item">Lorem Ipsum</li>
+                            <li className="resume-item">Lorem Ipsum</li>
                         </ol>
                     </li>
                 </ol>
@@ -92,10 +92,10 @@ const Resume = () => {
                         <h4>École Supérieure du Digital</h4>
                         <h5>Bachelor Chargé de Projet Digital</h5>
                         <ol className="resume-list">
-                            <li class="resume-item">Lorem Ipsum</li>
-                            <li class="resume-item">Lorem Ipsum</li>
-                            <li class="resume-item">Lorem Ipsum</li>
-                            <li class="resume-item">Lorem Ipsum</li>
+                            <li className="resume-item">Lorem Ipsum</li>
+                            <li className="resume-item">Lorem Ipsum</li>
+                            <li className="resume-item">Lorem Ipsum</li>
+                            <li className="resume-item">Lorem Ipsum</li>
                         </ol>
                     </li>
                     <li className="resume-sub-category">
@@ -103,10 +103,10 @@ const Resume = () => {
                         <h4>École Supérieure du Digital</h4>
                         <h5>Bachelor Chargé de Projet Digital</h5>
                         <ol className="resume-list">
-                            <li class="resume-item">Lorem Ipsum</li>
-                            <li class="resume-item">Lorem Ipsum</li>
-                            <li class="resume-item">Lorem Ipsum</li>
-                            <li class="resume-item">Lorem Ipsum</li>
+                            <li className="resume-item">Lorem Ipsum</li>
+                            <li className="resume-item">Lorem Ipsum</li>
+                            <li className="resume-item">Lorem Ipsum</li>
+                            <li className="resume-item">Lorem Ipsum</li>
                         </ol>
                     </li>
                     <li className="resume-sub-category">
@@ -114,10 +114,10 @@ const Resume = () => {
                         <h4>Lorem Ipsum</h4>
                         <h5>Lorem Ipsum</h5>
                         <ol className="resume-list">
-                            <li class="resume-item">Art Direction</li>
-                            <li class="resume-item">Art Direction</li>
-                            <li class="resume-item">Art Direction</li>
-                            <li class="resume-item">Art Direction</li>
+                            <li className="resume-item">Art Direction</li>
+                            <li className="resume-item">Art Direction</li>
+                            <li className="resume-item">Art Direction</li>
+                            <li className="resume-item">Art Direction</li>
                         </ol>
                     </li>
                 </ol>
