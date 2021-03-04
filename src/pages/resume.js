@@ -9,7 +9,7 @@ const Resume = () => {
       <main>
         <ul className="resume-categories">
             <li className="resume-category">
-                <h2 className="resume-category-title">Cursus</h2>
+                <h2 className="resume-category-title">Skills</h2>
                 <ol>
                     <li className="resume-sub-category">
                         <h3>2017 - 2020</h3>
@@ -47,7 +47,7 @@ const Resume = () => {
                 </ol>
             </li>
             <li className="resume-category">
-			<h2 className="resume-category-title">Cursus</h2>
+			<h2 className="resume-category-title">Experience</h2>
                 <ol>
                     <li className="resume-sub-category">
                         <h3>2017 - 2020</h3>
