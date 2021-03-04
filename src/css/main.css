@@ -600,6 +600,11 @@ Sidebar Animation
       flex-wrap: nowrap;
   }
 }
+@media screen and (max-width: 782px) {
+  .column:not(:first-child) {
+    margin-left: 32px;
+  }
+}
 .about-content{
   display: flex;
   margin-bottom: 28px;

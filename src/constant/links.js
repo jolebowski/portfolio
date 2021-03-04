@@ -31,7 +31,7 @@ const data = [
 const tempLinks = data.map(link => {
   return (
     <li key={link.id}>
-      <Link to={link.url}>{link.text}</Link>
+      <Link to={link.url} activeStyle={{ color: "#83569F" }}>{link.text}</Link>
     </li>
   )
 })
