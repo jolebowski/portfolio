@@ -44,6 +44,9 @@ const Projects = () => {
                 have evolved over the years, sometimes by accident, sometimes on
                 purpose (injected humour and the like).
               </p>
+              <div className="project-stack">
+                <span>react</span>
+              </div>
               <div className="btn-row">
                 <Link to="/work">Visit site web</Link>
               </div>
