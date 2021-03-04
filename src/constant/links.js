@@ -24,14 +24,14 @@ const data = [
   {
     id: 5,
     text: "contact",
-    url: "/contact/",
+    url: "https://ihgz0kpjw0z.typeform.com/to/oBYcYMtY",
   },
 ]
 
 const tempLinks = data.map(link => {
   return (
     <li key={link.id}>
-      <Link to={link.url} activeStyle={{ color: "#83569F" }}>{link.text}</Link>
+      <Link to={link.url} activeStyle={{ color: "#83569F" }} target={"_blank"} >{link.text}</Link>
     </li>
   )
 })
