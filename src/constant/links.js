@@ -35,7 +35,7 @@ const tempLinks = data.map(link => {
       <AniLink cover   to={link.url}
         direction="up"
         duration={2}
-        activeStyle={{ color: "#83569F" }}
+        activeStyle={{ color: "#AA88BF" }}
         target={"_blank"}
         bg="#462e55">
           {link.text}
