@@ -2,6 +2,11 @@
   position: unset
 }
 
+.tl-edges {
+  max-width: none;
+  overflow-x: inherit;
+}
+
 :root {
     /* dark shades of primary color*/
     /* --clr-primary-1: hsl(43, 86%, 17%); */
