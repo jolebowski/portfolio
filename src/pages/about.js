@@ -22,6 +22,9 @@ const IndexPage = () => {
     <Layout>
         <SEO title="About me" /> 
         <main className="container-about">
+        <header>
+          <h1 className="title-of-page">About Me</h1>
+        </header>
             <article>
                 <div className="post-content">
                     <div className="about-content">

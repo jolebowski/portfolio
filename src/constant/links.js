@@ -14,7 +14,7 @@ const data = [
   },
   {
     id: 3,
-    text: "about",
+    text: "about me",
     url: "/about/",
   },
   {

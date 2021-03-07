@@ -27,6 +27,11 @@ const Projects = () => {
     return (
     <Layout> 
         <SEO title="Projects" /> 
+    <div className="container-title">
+      <header>
+        <h1 className="title-of-page">Projects</h1>
+      </header>
+    </div>
       <div className="project-blurb">
         <div className="container">
           <div className="inner-blurb">
