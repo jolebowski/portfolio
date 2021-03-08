@@ -1,6 +1,8 @@
 import * as React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
+import { motion } from "framer-motion"
+
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -18,12 +20,30 @@ const IndexPage = () => {
       }
     }
   `)
+  const variants = {
+    hidden: {
+      opacity: 0,
+      x: -10,
+    },
+    display: {
+      opacity: 1,
+      x: 0,
+    },
+  }
   return (
     <Layout>
         <SEO title="About me" /> 
         <main className="container-about">
         <header>
-          <h1 className="title-of-page">About Me</h1>
+          <motion.h1
+                className="title-of-page"
+                variants={variants}
+                initial="hidden"
+                animate="display"
+                transition={{ delay: 0.6 }}
+              >
+              About Me
+          </motion.h1>
         </header>
             <article>
                 <div className="post-content">

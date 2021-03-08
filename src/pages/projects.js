@@ -1,5 +1,7 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
+import { motion } from "framer-motion"
+
 import Img from "gatsby-image"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -24,12 +26,32 @@ const Projects = () => {
         }
       }
     `)
+
+    const variants = {
+      hidden: {
+        opacity: 0,
+        x: -10,
+      },
+      display: {
+        opacity: 1,
+        x: 0,
+      },
+    }
+  
     return (
     <Layout> 
         <SEO title="Projects" /> 
     <div className="container-title">
       <header>
-        <h1 className="title-of-page">Projects</h1>
+        <motion.h1
+              className="title-of-page"
+              variants={variants}
+              initial="hidden"
+              animate="display"
+              transition={{ delay: 0.6 }}
+            >
+            Projects
+        </motion.h1>
       </header>
     </div>
       <div className="project-blurb">
