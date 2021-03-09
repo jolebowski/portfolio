@@ -20,10 +20,14 @@ const Resume = () => {
   return (
     <Layout>
       <SEO title="Resume" />
-      <main>
+      <motion.div   
+        variants={variants}
+        initial="hidden"
+        animate="display"
+        transition={{ delay: 0.6 }}>
         <div className="container-title">
         <header>
-            <motion.h1
+            <h1
                 className="title-of-page"
                 variants={variants}
                 initial="hidden"
@@ -31,7 +35,7 @@ const Resume = () => {
                 transition={{ delay: 0.6 }}
                 >
                 Resume
-            </motion.h1>
+            </h1>
         </header>
         </div>
         <ul className="resume-categories">
@@ -150,7 +154,7 @@ const Resume = () => {
                 </ol>
             </li>
         </ul>
-      </main>
+        </motion.div>
     </Layout>
   )
 }
