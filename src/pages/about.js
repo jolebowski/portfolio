@@ -33,17 +33,14 @@ const IndexPage = () => {
   return (
     <Layout>
         <SEO title="About me" /> 
+        <motion.div   
+        variants={variants}
+        initial="hidden"
+        animate="display"
+        transition={{ delay: 0.6 }}>
         <main className="container-about">
         <header>
-          <motion.h1
-                className="title-of-page"
-                variants={variants}
-                initial="hidden"
-                animate="display"
-                transition={{ delay: 0.6 }}
-              >
-              About Me
-          </motion.h1>
+          <h1 className="title-of-page">About Me</h1>
         </header>
             <article>
                 <div className="post-content">
@@ -69,6 +66,7 @@ const IndexPage = () => {
                 </div>
             </article>
         </main>
+        </motion.div>
     </Layout>
   )
 }

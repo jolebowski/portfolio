@@ -27,15 +27,7 @@ const Resume = () => {
         transition={{ delay: 0.6 }}>
         <div className="container-title">
         <header>
-            <h1
-                className="title-of-page"
-                variants={variants}
-                initial="hidden"
-                animate="display"
-                transition={{ delay: 0.6 }}
-                >
-                Resume
-            </h1>
+            <h1 className="title-of-page">Resume</h1>
         </header>
         </div>
         <ul className="resume-categories">
