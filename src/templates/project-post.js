@@ -112,25 +112,25 @@ const Post = ({ data, pageContext }) => {
 export default Post
 
 
-// export const pageQuery = graphql`
-//   query ProjectPostQuery($id: String!) {
-//     markdownRemark( 
-//       id: { eq: $id }
-//     ) {
-//       id
-//       html
-//       excerpt(pruneLength: 148)
-//       frontmatter {
-//         date(formatString: "MMMM DD, YYYY")
-//         slug
-//         title
-//         description
-//         featuredImage {
-//           childImageSharp {
-//             gatsbyImageData(layout: FULL_WIDTH)
-//           }
-//         }
-//       }
-//     }
-//   }
-// `
+export const pageQuery = graphql`
+  query ProjectPostQuery($id: String!) {
+    markdownRemark( 
+      id: { eq: $id }
+    ) {
+      id
+      html
+      excerpt(pruneLength: 148)
+      frontmatter {
+        date(formatString: "MMMM DD, YYYY")
+        slug
+        title
+        description
+        featuredImage {
+          childImageSharp {
+            gatsbyImageData(layout: FULL_WIDTH)
+          }
+        }
+      }
+    }
+  }
+`
