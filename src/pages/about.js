@@ -8,7 +8,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 
-const IndexPage = () => {
+const About = () => {
     const data = useStaticQuery(graphql`
     query {
       me: file(relativePath: { eq: "iamjomoreira.png" }) {
@@ -71,4 +71,4 @@ const IndexPage = () => {
   )
 }
 
-export default IndexPage
+export default About
