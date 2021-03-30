@@ -23,6 +23,13 @@ module.exports = {
       {
         resolve: `gatsby-source-filesystem`,
         options: {
+          path: `${__dirname}/static/assets/`,
+          name: `assets`,
+        },
+      },
+      {
+        resolve: `gatsby-source-filesystem`,
+        options: {
           name: `content`,
           path: `${__dirname}/src/content`,
         },
@@ -47,6 +54,20 @@ module.exports = {
               },
             },
             `gatsby-remark-responsive-iframe`,
+            {
+              resolve: `gatsby-remark-prismjs`,
+              options: {
+                classPrefix: "language-",
+                inlineCodeMarker: null,
+                aliases: {},
+                showLineNumbers: false,
+                noInlineHighlight: false,
+                // By default the HTML entities <>&'" are escaped.
+                // Add additional HTML escapes by providing a mapping
+                // of HTML entities and their escape value IE: { '}': '&#123;' }
+                escapeEntities: {},
+              },
+            },
           ],
         },
       },
