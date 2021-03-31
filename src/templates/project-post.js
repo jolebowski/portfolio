@@ -52,32 +52,38 @@ const Post = ({ data, pageContext }) => {
   }
   
   return (
-    <Layout className="page">
+    <Layout>
       <SEO
         title={frontmatter.title}
         description={frontmatter.description ? frontmatter.description : excerpt}
         image={Image}
         article={true}
       />
-      <article className="project-post">
-        <header className="featured-banner">
-          <section className="article-header">
-            <h1>{frontmatter.title}</h1>
-            <time>{frontmatter.date}</time>
-          </section>
-          {Image ? (
+      <article className="post-content">
+        <header className="post-content-header">
+            <h1 className="post-content-title">{frontmatter.title}</h1>
+        </header>
+
+        {frontmatter.description && (
+          <p class="post-content-excerpt">{frontmatter.description}</p>
+        )}
+
+        {Image ? (
+          <div className="post-content-image">
             <GatsbyImage
+              className="kg-image"
               image={Image}
               alt={frontmatter.title + " - Featured image"}
               className="featured-image"
             />
-          ) : ""}
-        </header>
-        
+          </div>
+        ) : ""}
+
         <div
-          className="project-post-content"
+          className="post-content-body"
           dangerouslySetInnerHTML={{ __html: html }}
         />
+
       </article>
       {(previous || next) && (
         <Pagination {...props} />

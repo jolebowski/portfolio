@@ -519,39 +519,63 @@ Sidebar Animation
 .pagination.-post.page-title{
   line-height: 1.3;
 }
-.page{
-  padding: 50px 20px;
-}
-.featured-image{
-  border-radius: 12px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-.article-header{
-  padding: 35px 0;
-  text-align: center;
+.post-content {
+  max-width: 720px;
   margin: 0 auto;
+  padding: 6vw 0;
 }
-
-article blockquote {
-	margin-left: 0;
-	padding: 5px 5px 5px 20px;
-	border-left: 3px solid rgba(0,0,0,0.1);
+.post-content-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-article iframe {
-	border: 2px solid black;
-	box-sizing: border-box;
+.post-content-title {
+  margin: 0 0 3vw;
+  color: var(--clr-primary-5);
+  text-align: center;
 }
-article img {
-	max-width: 100%;
+.post-content-excerpt {
+  margin: -2vw 0 3vw;
+  font-size: 2.2rem;
+  line-height: 1.6em;
+  color: var(--clr-primary-5);
+  text-align: center;
+  opacity: 0.5;
 }
-.project-post-content {
-	max-width: 70ch;
-	margin:0 auto;
-	padding: 20px;
-	line-height: 1.5;
-	font-size: 20px;
+@media (max-width: 500px) {
+  .post-content-excerpt {
+    font-size: 1.8rem;
+  }
+}
+.post-content-image {
+  margin: 4vw 0;
+  position: relative;
+  width: 75vw;
+  min-width: 100%;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  transform: translateX(calc(50vw - 50%));
+}
+.kg-image {
+  max-width: 100%;
+  width: 100%;
+}
+.post-content-body {
+  font-size: 1.9rem;
+  line-height: 1.65em;
+}
+@media (max-width: 500px) {
+  .post-content-body {
+    font-size: 1.7rem;
+  }
+}
+.post-content-body h1,
+.post-content-body h2,
+.post-content-body h3,
+.post-content-body h4,
+.post-content-body h5,
+.post-content-body h6 {
+  color: var(--clr-primary-5);
 }
 .icon{
   display: inline-block;
