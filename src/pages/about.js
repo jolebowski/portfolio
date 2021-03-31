@@ -43,7 +43,7 @@ const About = () => {
           <h1 className="title-of-page">About Me</h1>
         </header>
             <article>
-                <div className="post-content">
+                <div>
                     <div className="about-content">
                         <div className="column" style={{flexBasis:"33.33%"}}>
                             <figure className="photo">
