@@ -72,7 +72,6 @@ module.exports = {
         },
       },
       `gatsby-plugin-transition-link`,
-      'gatsby-plugin-theme-ui',
       `gatsby-plugin-netlify-cms`
     ]
 }
