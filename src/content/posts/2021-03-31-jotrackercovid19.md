@@ -6,7 +6,7 @@ date: 2021-03-31 23:37
 description: jotrackercovid19
 featuredImage: /assets/capture-d’écran-2021-03-29-à-17.03.25.png
 ---
-\### A wallpaper series using shapes and light by \[Jean-Marc Denis](http://jmd.im/black)
+### A wallpaper series using shapes and light by [Jean-Marc Denis](http://jmd.im/black)
 
 
 
