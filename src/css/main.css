@@ -27,8 +27,6 @@
     --clr-grey-8: #bcccdc;
     --clr-grey-9: #dae2ec;
     --clr-green-dark: #1d9527;
-    --clr-red-dark: #bb2525;
-    --clr-red-light: #e66b6b;
     --clr-brown: #83333e;
     --clr-white: #fff;
     --clr-black: black;
@@ -479,6 +477,7 @@ Sidebar Animation
 }
 .page-title{
   line-height: 1.3;
+  color: var(--clr-primary-5);
 }
 .pagination.-post{
   text-align: inherit;
@@ -553,6 +552,12 @@ article img {
 	padding: 20px;
 	line-height: 1.5;
 	font-size: 20px;
+}
+.icon{
+  display: inline-block;
+  line-height: inherit;
+  vertical-align: middle;
+  align-items: center;
 }
 
 @media (max-width: 768px) {
