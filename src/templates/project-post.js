@@ -59,35 +59,37 @@ const Post = ({ data, pageContext }) => {
         image={Image}
         article={true}
       />
-      <article className="post-content">
-        <header className="post-content-header">
-            <h1 className="post-content-title">{frontmatter.title}</h1>
-        </header>
+      <main className="container-page">
+        <article className="post-content">
+          <header className="post-content-header">
+              <h1 className="post-content-title">{frontmatter.title}</h1>
+          </header>
 
-        {frontmatter.description && (
-          <p class="post-content-excerpt">{frontmatter.description}</p>
+          {frontmatter.description && (
+            <p class="post-content-excerpt">{frontmatter.description}</p>
+          )}
+
+          {Image ? (
+            <div className="post-content-image">
+              <GatsbyImage
+                className="kg-image"
+                image={Image}
+                alt={frontmatter.title + " - Featured image"}
+                className="featured-image"
+              />
+            </div>
+          ) : ""}
+
+          <div
+            className="post-content-body"
+            dangerouslySetInnerHTML={{ __html: html }}
+          />
+
+        </article>
+        {(previous || next) && (
+          <Pagination {...props} />
         )}
-
-        {Image ? (
-          <div className="post-content-image">
-            <GatsbyImage
-              className="kg-image"
-              image={Image}
-              alt={frontmatter.title + " - Featured image"}
-              className="featured-image"
-            />
-          </div>
-        ) : ""}
-
-        <div
-          className="post-content-body"
-          dangerouslySetInnerHTML={{ __html: html }}
-        />
-
-      </article>
-      {(previous || next) && (
-        <Pagination {...props} />
-      )}
+      </main>
     </Layout>
   )
 }
