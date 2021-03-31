@@ -22,8 +22,7 @@ This is the final render.
 
 
 
-!\[Darkness](./BLACK_II_desktop-1.jpg)
-![Royal Mail](/assets/royal-mail-unsplash.jpg)
+![Jotrackercovid19](/assets/jotrackercovid19_2.jpg)
 
 
 
@@ -31,25 +30,3 @@ This is the final render.
 </div>
 
 
-
-<div class="kg-card kg-image-card kg-width-full">
-
-
-
-!\[Darkness](./BLACK_IX_desktop-1.jpg)
-
-
-
-</div>
-
-
-
-<div class="kg-card kg-image-card kg-width-full">
-
-
-
-!\[Darkness](./BLACK_I_desktop-1.jpg)
-
-
-
-</div>
