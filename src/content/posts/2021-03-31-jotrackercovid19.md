@@ -6,7 +6,7 @@ date: 2021-03-31 23:37
 description: |+
   jotrackercovid19 <br/>
 
-   <div className="actions">
+   <div class="actions">
 
   <button name="button" className="button primary">React JS</button>
 
