@@ -15,7 +15,7 @@ const Pagination = (props) => (
         <li style={{textAlign:"left"}}>
             <Link to={`/${props.previous.frontmatter.slug}`} rel="prev">
                 <p>
-                  <span className="icon -left" style={{fontSize:"40px"}}><RiArrowLeftLine/></span> 
+                  <span className="icon -left"><RiArrowLeftLine/></span> 
                   Previous
                 </p>
                 <span className="page-title">{props.previous.frontmatter.title}</span>
@@ -27,7 +27,7 @@ const Pagination = (props) => (
             <Link to={`/${props.next.frontmatter.slug}`} rel="next">
             <p>
               Next 
-              <span className="icon -right" style={{fontSize:"40px"}}><RiArrowRightLine/></span>
+              <span className="icon -right"><RiArrowRightLine/></span>
             </p>
             <span className="page-title">{props.next.frontmatter.title}</span>
             </Link>
