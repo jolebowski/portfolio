@@ -17,7 +17,7 @@ featuredImage: /assets/latest-movies.png
 
 I did this project to apply for a job in a company, it was successful and it was the first time I used [material-ui](https://material-ui.com/).
 
-<div class="kg-image-card kg-width-full">
+<div class="kg-width-full">
 
 ![latest movies](/assets/latest-movies-1.jpg)
 
