@@ -78,10 +78,9 @@ h1,
 h2,
 h3,
 h4 {
-  letter-spacing: var(--spacing);
-  text-transform: capitalize;
-  line-height: 1.25;
-  margin-bottom: 0.75rem;
+  line-height: 1.4;
+  font-weight: 700;
+  text-rendering: optimizeLegibility;
   font-family: var(--ff-primary);
 }
 h1 {
@@ -89,9 +88,6 @@ h1 {
 }
 h2 {
   font-size: 2rem;
-}
-h3 {
-  font-size: 1.25rem;
 }
 h4 {
   font-size: 0.875rem;
@@ -113,14 +109,11 @@ display: none;
   h2 {
     font-size: 2.5rem;
   }
-  h3 {
-    font-size: 1.75rem;
-  }
   h4 {
     font-size: 1rem;
   }
   body {
-    font-size: 1rem;
+    font-size: .875rem;
   }
   h1,
   h2,
@@ -579,11 +572,6 @@ Sidebar Animation
   font-size: 1.9rem;
   line-height: 1.65em;
 }
-@media (max-width: 500px) {
-  .post-content-body {
-    font-size: 1.7rem;
-  }
-}
 .post-content-body h1,
 .post-content-body h2,
 .post-content-body h3,
@@ -620,55 +608,6 @@ Sidebar Animation
 
 .post-content-body blockquote p:last-child {
   margin-bottom: 0;
-}
-.post-content-body code {
-  padding: 0 5px 2px;
-  font-size: 0.8em;
-  line-height: 1em;
-  font-weight: 400 !important;
-  background: var(--clr-black) !important;
-  border-radius: 3px !important;
-}
-
-.post-content-body p code {
-  word-break: break-all;
-}
-.post-content-body pre {
-  overflow-x: auto;
-  margin: 1.5em 0 3em;
-  padding: 20px;
-  max-width: 100%;
-  border: color(var(--clr-white) l(-0%)) 1px solid !important;
-  color: var(--color-primary-5);
-  font-size: 1.4rem;
-  line-height: 1.5em;
-  background: var(--clr-black) !important;
-  border-radius: 5px;
-}
-.post-content-body pre code {
-  padding: 0;
-  font-size: inherit;
-  line-height: inherit;
-  background: transparent;
-}
-.post-content-body hr {
-  margin: 4vw 0;
-}
-.post-content-body pre code :not(span) {
-  color: inherit;
-}
-.post-content-body hr:after {
-  content: "";
-  position: absolute;
-  top: -15px;
-  left: 50%;
-  display: block;
-  margin-left: -10px;
-  width: 1px;
-  height: 30px;
-  background: color(var(--color-border) l(+10%));
-  box-shadow: #fff 0 0 0 5px;
-  transform: rotate(45deg);
 }
 .icon{
   display: inline-block;
@@ -791,7 +730,18 @@ button {
     transform: translateY(0);
   }
 }
-
+@media (max-width: 768px) {
+  .post-content-body {
+    font-size: 1.7rem;
+  }
+  .post-content-body h3{
+    font-size: 1.8rem;
+  }
+}
+.post-content-body h3{
+  margin: 1.5em 0 1em;
+  /* font-size: 3.2rem; */
+}
 /* resume */
 
 .resume-categories{
@@ -983,7 +933,7 @@ button {
 .title-of-page{
   color:var(--clr-primary-5);
   font-weight: 700;
-  font-size: 2.25rem;
+  font-size: 3.25rem;
   margin-top: 5rem;
   margin-bottom: 5rem;
 }
