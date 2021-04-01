@@ -18,3 +18,16 @@ featuredImage: /assets/jolesbonspronos.jpg
 
 This is a personal project that I wanted to do from A to Z. For the project I used all the technologies I learned during my trainings.
 
+<div class="kg-width-wide">
+
+![jolesbonspronos](/assets/jolesbonspronos-1.jpg)
+
+</div>
+
+<div class="kg-width-wide">
+
+![jolesbonspronos](/assets/jolesbonspronos-3.jpg)
+
+</div>
+
+![jolesbonspronos](/assets/jolesbonspronos-2.jpg)
