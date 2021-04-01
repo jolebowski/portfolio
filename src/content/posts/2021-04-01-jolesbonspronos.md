@@ -1,0 +1,22 @@
+---
+template: project-post
+title: jolesbonspronos
+slug: jolesbonspronos
+date: 2021-04-01 22:55
+description: |-
+  A project that offers sports betting to customers.<br/>
+
+  <button name="button" className="button primary">React JS</button>
+
+  <button name="button" className="button primary">MongoDB</button>
+
+  <button name="button" className="button primary">Graphql</button>
+
+  <button name="button" className="button primary">Styled-components</button>
+featuredImage: /assets/jolesbonspronos.jpg
+---
+
+### A demo of the project is available on this link : [jolesbonspronos](https://deploy-preview-4--jolesbonspronos.netlify.app/)
+
+This is a personal project that I wanted to do from A to Z. For the project I used all the technologies I learned during my trainings.
+
