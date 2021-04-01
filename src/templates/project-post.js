@@ -66,7 +66,7 @@ const Post = ({ data, pageContext }) => {
           </header>
 
           {frontmatter.description && (
-            <p class="post-content-excerpt">{frontmatter.description}</p>
+            <p class="post-content-excerpt"dangerouslySetInnerHTML={{ __html: frontmatter.description }}></p>
           )}
 
           {Image ? (
