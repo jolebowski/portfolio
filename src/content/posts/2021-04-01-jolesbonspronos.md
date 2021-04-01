@@ -3,7 +3,7 @@ template: project-post
 title: jolesbonspronos
 slug: jolesbonspronos
 date: 2021-04-01 22:55
-description: |-
+description: |
   A project that offers sports betting to customers.<br/>
 
   <button name="button" className="button primary">React JS</button>
@@ -11,8 +11,6 @@ description: |-
   <button name="button" className="button primary">MongoDB</button>
 
   <button name="button" className="button primary">Graphql</button>
-
-  <button name="button" className="button primary">Styled-components</button>
 featuredImage: /assets/jolesbonspronos.jpg
 ---
 
