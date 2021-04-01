@@ -1,7 +1,7 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 import { GatsbyImage } from "gatsby-plugin-image"
-import { RiArrowRightLine, RiArrowLeftLine } from "react-icons/ri"
+import { RiArrowRightLine, RiArrowLeftLine, RiArrowDownLine } from "react-icons/ri"
 
 import SEO from "../components/seo"
 import Layout from "../components/layout"
@@ -48,6 +48,11 @@ const Post = ({ data, pageContext }) => {
     previous,
     next
   }
+  const separator = React.createRef();
+
+  const scrollToContent = e => {
+    separator.current.scrollIntoView({ block: "start", behavior: "smooth" });
+  };
   
   return (
     <Layout>
@@ -59,12 +64,16 @@ const Post = ({ data, pageContext }) => {
       />
       <main className="container-page">
         <article className="post-content">
+        <section className="title-section">
           <header className="post-content-header">
               <h1 className="post-content-title">{frontmatter.title}</h1>
           </header>
-
+          <button onClick={scrollToContent}  className="button-scroll" aria-label="scroll">
+            <RiArrowDownLine />
+          </button>
+        </section>
           {frontmatter.description && (
-            <p class="post-content-excerpt"dangerouslySetInnerHTML={{ __html: frontmatter.description }}></p>
+            <p  ref={separator} class="post-content-excerpt"dangerouslySetInnerHTML={{ __html: frontmatter.description }}></p>
           )}
 
           {Image ? (

@@ -701,9 +701,12 @@ Sidebar Animation
 }
 .-right{
   font-size: 40px;
+  padding-left: 10px;
+
 }
 .-left{
   font-size: 40px;
+  padding-right: 10px;
 }
 @media (max-width: 768px) {
   .-right{
@@ -747,6 +750,48 @@ button {
     margin-top: 10px;
   }
 }
+.title-section{
+  align-items: center;
+  color: var(--clr-primary-5) !important;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  min-height: 100vh;
+  height: 100px;
+  padding: 40px;
+  padding-top: 100px;
+}
+
+.button-scroll {
+  border: 0;
+  border-radius: 50%;
+  font-size: 1.35em;
+  padding: 10px 20px;
+  cursor: pointer;
+  width: 80px;
+  height: 80px;
+}
+.button-scroll svg{
+  position: relative;
+  top: 10px;
+  font-size: 30px;
+  animation-duration: 1s;
+  animation-name: buttonIconMove;
+  animation-iteration-count: infinite;
+
+}
+@keyframes buttonIconMove {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
 /* resume */
 
 .resume-categories{
