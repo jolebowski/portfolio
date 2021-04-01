@@ -140,6 +140,12 @@ button:active,
 button:focus {
   outline: 0;
 }
+a {
+  color: var(--clr-primary-9);;
+  text-decoration: none;
+  -webkit-transition: .4s ease;
+  transition: .4s ease;
+}
 /*  global classes */
 
 .navbar {
