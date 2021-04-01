@@ -23,4 +23,9 @@ featuredImage: /assets/latest-movies.png
 
 </div>
 
+### A demo of the project is available on this link : [latest movies](https://latest-movies.netlify.app/)
+
+J'ai fait ce projet pour un test, il a été concluant et c'est la première fois que j'utilisais [material-ui](https://material-ui.com/) 
+
+
 ![latest movies](/assets/latest-movies-2.jpg)
