@@ -8,13 +8,9 @@ description: |-
 
   <button name="button" className="button primary">React JS</button>
 
-  <button name="button" className="button primary">CSS</button>
+  <button name="button" className="button primary">Material-ui</button>
 
-  <button name="button" className="button primary">HTML</button>
-
-  <button name="button" className="button primary">HTML</button>
-
-  <button name="button" className="button primary">HTML</button>
+  <button name="button" className="button primary">API</button>
 featuredImage: /assets/latest-movies.png
 ---
 <div class="kg-image-card kg-width-full">
