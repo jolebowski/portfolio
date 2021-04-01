@@ -12,6 +12,8 @@ description: |+
                 </a>
               </li>
             </ul>
+  <button name="button" className="button primary">Click me</button>
+
 
 featuredImage: /assets/capture-d’écran-2021-03-29-à-17.03.25.png
 ---
