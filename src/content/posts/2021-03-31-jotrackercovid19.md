@@ -3,7 +3,16 @@ template: project-post
 title: jotrackercovid19
 slug: jotrackercovid19
 date: 2021-03-31 23:37
-description: jotrackercovid19
+description: |+
+  jotrackercovid19
+           <ul className="actions">
+              <li>
+                <a href="#" className="button primary">
+                  Primary
+                </a>
+              </li>
+            </ul>
+
 featuredImage: /assets/capture-d’écran-2021-03-29-à-17.03.25.png
 ---
 ### A wallpaper series using shapes and light by [Jean-Marc Denis](http://jmd.im/black)
