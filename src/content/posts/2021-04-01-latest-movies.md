@@ -17,5 +17,11 @@ featuredImage: /assets/latest-movies.png
 
 I did this project to apply for a job in a company, it was successful and it was the first time I used [material-ui](https://material-ui.com/).
 
+<div class="kg-width-full">
+
+![jolesbonspronos](/assets/latest-movies-1.jpg)
+
+</div>
+
 
 ![latest movies](/assets/latest-movies-2.jpg)
