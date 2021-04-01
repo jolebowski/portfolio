@@ -6,15 +6,11 @@ date: 2021-03-31 23:37
 description: |+
   jotrackercovid19 <br/>
 
-   <div class="actions">
-
   <button name="button" className="button primary">React JS</button>
 
   <button name="button" className="button primary">CSS</button>
 
   <button name="button" className="button primary">HTML</button>
-
-  </div>
 
 featuredImage: /assets/capture-d’écran-2021-03-29-à-17.03.25.png
 ---
