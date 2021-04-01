@@ -33,16 +33,18 @@
     --ff-primary: "Roboto", sans-serif;
     --ff-secondary: "Open Sans", sans-serif;
     --transition: all 0.5s linear;
-    --spacing: 0.2rem;
-    --radius: 0.25rem;
     --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    --outer-col: calc(var(--outer-gap) - var(--inner-gap));
+    /* Sizes */
+    --margin: 2rem;
+    --spacing: 0.2rem;
+    --radius: 0.25rem;
     --max-width: 1170px;
     --fixed-width: 700px;
     --columns: 12;
     --outer-gap: 7vw;
     --inner-gap: 1vw;
-    --outer-col: calc(var(--outer-gap) - var(--inner-gap));
   }
   /*
   =============== 
@@ -713,6 +715,57 @@ Sidebar Animation
   margin-right: calc(50% - 50vw);
   transform: translateX(calc(50vw - 50%));
 }
+.actions {
+  display: flex;
+  cursor: default;
+  list-style: none;
+  margin: calc(var(--margin) * -0.5);
+  padding-left: 0;
+}
+
+.actions li {
+  padding: 0 0 0 calc(var(--margin) * 0.5);
+  vertical-align: middle;
+}
+input[type="button"],
+button,
+.button {
+    display: inline-block;
+    height: 4rem;
+    padding: 0 2rem;
+    border: 0;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 4rem;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+    appearance: none;
+    transition: 0.4s ease;
+}
+input[type="button"]:hover,
+button:hover,
+.button:hover {
+    text-decoration: none;
+    color: color(var(--color-primary-5) l(-15%)) !important;
+    box-shadow: inset 0 0 0 2px color(var(--color-primary-5) l(-10%));
+    transition: 0.2s ease;
+}
+input[type="button"].primary,
+button.primary,
+.button.primary {
+    /* color: #fff !important; */
+    color: var(--color-base) !important;
+    background-color: var(--clr-primary-5);
+    box-shadow: none;
+}
+input[type="button"].primary:hover,
+button.primary:hover,
+.button.primary:hover {
+        background-color: color(var(--clr-primary-5) l(-10%));
+    }
 /* resume */
 
 .resume-categories{
