@@ -580,6 +580,12 @@ button {
   margin: 1.5em 0 1em;
   /* font-size: 3.2rem; */
 }
+video{
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+  box-shadow: 0 5px 5px 0 rgb(154 160 185 / 40%), 0 5px 30px 0 rgb(166 173 201 / 40%);
+}
 /* resume */
 
 .resume-categories{
