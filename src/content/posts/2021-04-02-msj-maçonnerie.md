@@ -19,11 +19,7 @@ featuredImage: /assets/capture-d’écran-2021-04-02-à-12.01.14.png
 
 I built this project for my father who wanted a website to showcase these works. I used an existing WordPress theme.
 
-<div class="kg-width-full">
 
-![msj maconnerie](/assets/msj-maçonnerie.jpg)
-
-</div>
 
 
 
