@@ -27,9 +27,6 @@ This is a personal project that I wanted to do from A to Z. For the project I us
 </div>
 
 
-![jolesbonspronos](/assets/jolesbonspronos-2.jpg)
-
-
 <div class="kg-width-full">
 
 
@@ -37,4 +34,8 @@ This is a personal project that I wanted to do from A to Z. For the project I us
 
 
 </div>
+
+
+![jolesbonspronos](/assets/jolesbonspronos-2.jpg)
+
 
