@@ -3,42 +3,20 @@ template: project-post
 title: Msj Maçonnerie
 slug: Msj-Maçonnerie
 date: 2021-04-02 11:46
-description: >+
+description: |+
   .<br/>
-
-  I built this project for my father who wanted a website to showcase these works. I used an existing WordPress theme.
-
 
   <button name="button" className="button primary">WordPress</button>
 
+  <button name="button" className="button primary">Css</button>
 
-  <button name="button" className="button primary">FileZilla</button>
+  <button name="button" className="button primary">Html</button>
 
-featuredImage: /assets/jolesbonspronos.jpg
+featuredImage: /assets/capture-d’écran-2021-04-02-à-12.01.14.png
 ---
 
-### A demo of the project is available on this link : [jolesbonspronos](https://deploy-preview-4--jolesbonspronos.netlify.app/)
+### The project is available on this link : [MSJ Maçonnerie](https://msjmaconnerie.fr/)
 
-This is a personal project that I wanted to do from A to Z. For the project I used all the technologies I learned during my trainings.
-
-<div class="kg-width-full">
-
-
-![jolesbonspronos](/assets/jolesbonspronos-1.jpg)
-
-
-</div>
-
-
-<div class="kg-width-full">
-
-
-![jolesbonspronos](/assets/jolesbonspronos-3.jpg)
-
-
-</div>
-
-
-![jolesbonspronos](/assets/jolesbonspronos-2.jpg)
+I built this project for my father who wanted a website to showcase these works. I used an existing WordPress theme.
 
 
