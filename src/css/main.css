@@ -103,6 +103,10 @@ display: none;
   margin: 7vw 0;
   box-shadow: 0 5px 5px 0 rgb(154 160 185 / 40%), 0 5px 30px 0 rgb(166 173 201 / 40%);
 }
+.featured-image{
+  box-shadow: 0 5px 5px 0 rgb(154 160 185 / 40%), 0 5px 30px 0 rgb(166 173 201 / 40%);
+
+}
 
 @media screen and (min-width: 800px) {
   h1 {
