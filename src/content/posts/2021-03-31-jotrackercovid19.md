@@ -1,10 +1,10 @@
 ---
 template: project-post
-title: jotrackercovid19
+title: Jotrackercovid19
 slug: jotrackercovid19
-date: 2021-03-31 23:37
+date: 2021-03-31 23:38
 description: |+
-  jotrackercovid19 <br/>
+  It's a tool to follow the evolution of the Coronavirus epidemic in France and in the world.<br/>
 
   <button name="button" className="button primary">React JS</button>
 

@@ -2,7 +2,7 @@
 template: project-post
 title: Latest Movies
 slug: latest-movies
-date: 2021-04-01 11:23
+date: 2021-04-01 11:24
 description: |-
   A project that shows the latest films that have been released.<br/>
 
