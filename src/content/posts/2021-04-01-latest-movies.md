@@ -1,6 +1,6 @@
 ---
 template: project-post
-title: latest movies
+title: Latest Movies
 slug: latest-movies
 date: 2021-04-01 11:23
 description: |-
