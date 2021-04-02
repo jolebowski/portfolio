@@ -1,6 +1,6 @@
 ---
 template: project-post
-title: jolesbonspronos
+title: Jolesbonspronos
 slug: jolesbonspronos
 date: 2021-04-01 22:55
 description: |
