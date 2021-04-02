@@ -21,7 +21,7 @@ I built this project for my father who wanted a website to showcase these works.
 
 <div class="kg-width-full">
 
-![msj maconnerie](/assets/msj-maçonnerie.jpg)
+![msj maconnerie](/assets/msj-maconnerie.jpg)
 
 </div>
 
