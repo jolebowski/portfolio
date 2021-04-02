@@ -72,10 +72,10 @@ const Post = ({ data, pageContext }) => {
             <RiArrowDownLine />
           </button>
         </section>
+        
           {frontmatter.description && (
             <p  ref={separator} class="post-content-excerpt"dangerouslySetInnerHTML={{ __html: frontmatter.description }}></p>
           )}
-
           {Image ? (
             <div className="post-content-image">
               <GatsbyImage
