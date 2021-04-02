@@ -20,5 +20,4 @@ I did this project to apply for a job in a company, it was successful and it was
 
 ![latest movies](/assets/latest-movies-1.jpg)
 
-
 ![latest movies](/assets/latest-movies-2.jpg)
