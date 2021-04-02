@@ -74,7 +74,7 @@ module.exports = {
       `gatsby-plugin-transition-link`,
       `gatsby-plugin-netlify-cms`,
       {
-        resolve: `gatsby-remark-videos`,
+        resolve: `gatsby-remark-video`,
         options: {
           pipelines: [
             {
