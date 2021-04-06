@@ -7,9 +7,7 @@ import SEO from "../components/seo"
 import Layout from "../components/layout"
 
 const Pagination = (props) => (
-<div 
-    className="pagination -post"
->
+<div className="pagination -post">
     <ul>
         {(props.previous && props.previous.frontmatter.template === 'project-post') && (
         <li style={{textAlign:"left"}}>
@@ -37,6 +35,8 @@ const Pagination = (props) => (
 
 const Post = ({ data, pageContext }) => {
   const { markdownRemark } = data // data.markdownRemark holds your post data
+  console.log(data, "data")
+
   const { frontmatter, html, excerpt } = markdownRemark
 
   const Image = frontmatter.featuredImage
@@ -48,6 +48,9 @@ const Post = ({ data, pageContext }) => {
     previous,
     next
   }
+
+  console.log(props, "propsprops111")
+
   const separator = React.createRef();
 
   const scrollToContent = e => {
@@ -62,6 +65,7 @@ const Post = ({ data, pageContext }) => {
         image={Image}
         article={true}
       />
+      {console.log(frontmatter.title, "frontmatter.titlefrontmatter.title")}
       <main className="container-page">
         <article className="post-content">
         <section className="title-section">
@@ -74,7 +78,7 @@ const Post = ({ data, pageContext }) => {
         </section>
         
           {frontmatter.description && (
-            <p  ref={separator} class="post-content-excerpt"dangerouslySetInnerHTML={{ __html: frontmatter.description }}></p>
+            <p  ref={separator} className="post-content-excerpt"dangerouslySetInnerHTML={{ __html: frontmatter.description }}></p>
           )}
           {Image ? (
             <div className="post-content-image">

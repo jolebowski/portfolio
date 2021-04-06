@@ -37,7 +37,7 @@ const About = () => {
         variants={variants}
         initial="hidden"
         animate="display"
-        transition={{ delay: 0.6 }}>
+        transition={{ delay: 0.3 }}>
         <main className="container-about">
         <header>
           <h1 className="title-of-page">About Me</h1>
