@@ -16,13 +16,6 @@ module.exports = {
       {
         resolve: `gatsby-source-filesystem`,
         options: {
-          name: `images`,
-          path: `${__dirname}/src/images`,
-        },
-      },
-      {
-        resolve: `gatsby-source-filesystem`,
-        options: {
           path: `${__dirname}/static/assets/`,
           name: `assets`,
         },
@@ -32,6 +25,13 @@ module.exports = {
         options: {
           name: `content`,
           path: `${__dirname}/src/content`,
+        },
+      },
+      {
+        resolve: `gatsby-source-filesystem`,
+        options: {
+          name: `images`,
+          path: `${__dirname}/src/images`,
         },
       },
       `gatsby-plugin-image`,
@@ -71,7 +71,6 @@ module.exports = {
           ],
         },
       },
-      `gatsby-plugin-transition-link`,
       `gatsby-plugin-netlify-cms`,
       {
         resolve: `gatsby-remark-video`,

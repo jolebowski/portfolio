@@ -1,5 +1,5 @@
 import React from "react"
-import AniLink from "gatsby-plugin-transition-link/AniLink";
+import { Link } from "gatsby"
 
 const data = [
   {
@@ -32,14 +32,9 @@ const data = [
 const tempLinks = data.map(link => {
   return (
     <li key={link.id}>
-      <AniLink cover to={link.url}
-        direction="up"
-        duration={2}
-        activeStyle={{ color: "#AA88BF" }}
-        target={"_blank"}
-        bg="#462e55">
+      <Link to={link.url}>
           {link.text}
-      </AniLink>
+      </Link>
 
     </li>
   )

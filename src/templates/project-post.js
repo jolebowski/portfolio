@@ -35,8 +35,7 @@ const Pagination = (props) => (
 
 const Post = ({ data, pageContext }) => {
   const { markdownRemark } = data // data.markdownRemark holds your post data
-  console.log(data, "data")
-
+  
   const { frontmatter, html, excerpt } = markdownRemark
 
   const Image = frontmatter.featuredImage
@@ -48,8 +47,6 @@ const Post = ({ data, pageContext }) => {
     previous,
     next
   }
-
-  console.log(props, "propsprops111")
 
   const separator = React.createRef();
 
@@ -65,7 +62,6 @@ const Post = ({ data, pageContext }) => {
         image={Image}
         article={true}
       />
-      {console.log(frontmatter.title, "frontmatter.titlefrontmatter.title")}
       <main className="container-page">
         <article className="post-content">
         <section className="title-section">

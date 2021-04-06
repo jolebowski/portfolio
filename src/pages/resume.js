@@ -97,6 +97,13 @@ const Resume = () => {
                             <li className="resume-item">MongoDb</li>
                         </ol>
                     </li>
+                    <li className="resume-sub-category">
+                        <h4>mobile</h4>
+                        <ol className="resume-list">
+                            <li className="resume-item">Swift</li>
+                            <li className="resume-item">React Native</li>
+                        </ol>
+                    </li>
                 </ol>
             </li>
             <li className="resume-category">
