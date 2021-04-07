@@ -10,7 +10,7 @@ Use the Gatsby CLI to create a new site, specifying the `portfolio` starter.
 gatsby new portfolio https://github.com/jolebowski/portfolio
 ```
 
-[![My portfolio](/assets/portfolio.jpg)](https://iamjomoreira.netlify.app/)
+[![My portfolio](static/assets/portfolio.jpg)](https://iamjomoreira.netlify.app/)
 
 ### Start developing
 
