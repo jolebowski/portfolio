@@ -1,7 +1,7 @@
 ---
 template: project-post
 title: MSJ Maçonnerie
-slug: Msj-Maçonnerie
+slug: Msj-Maconnerie
 date: 2021-04-02 11:47
 description: |+
   <br/>
@@ -26,4 +26,3 @@ I built this project for my father who wanted a website to showcase these works.
 </div>
 
 ![msj maconnerie](/assets/msj-maconnerie-1.jpg)
-

@@ -14,17 +14,13 @@ description: |+
 
 featuredImage: /assets/capture-d’écran-2021-03-29-à-17.03.25.png
 ---
-### The project is available on this link : [jotrackercovid19](https://jotrackercovid19.netlify.app/)
 
+### The project is available on this link : [jotrackercovid19](https://jotrackercovid19.netlify.app/)
 
 <div class="kg-card kg-image-card kg-width-full">
 
-
 ![Jotrackercovid19](/assets/jotrackercovid19_2.jpg)
-
 
 </div>
 
 ![Jotrackercovid19](/assets/jotrackercovid19-3.jpg)
-
-

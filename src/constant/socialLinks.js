@@ -1,9 +1,5 @@
 import React from "react"
-import {
-  FaGithub,
-  FaLinkedin,
-  FaTwitterSquare,
-} from "react-icons/fa"
+import { FaGithub, FaLinkedin, FaTwitterSquare } from "react-icons/fa"
 
 const data = [
   {
@@ -25,7 +21,12 @@ const data = [
 const links = data.map(link => {
   return (
     <li key={link.id}>
-      <a href={link.url} className="social-link" target="_blank" rel="noreferrer" >
+      <a
+        href={link.url}
+        className="social-link"
+        target="_blank"
+        rel="noreferrer"
+      >
         {link.icon}
       </a>
     </li>

@@ -3,7 +3,7 @@ import React from "react"
 import Navbar from "../navbar"
 import Sidebar from "../sidebar"
 
-const Layout = ({children}) => {
+const Layout = ({ children }) => {
   const [isOpen, setIsOpen] = React.useState(false)
   const [visible, setVisible] = React.useState(false)
 
@@ -11,9 +11,9 @@ const Layout = ({children}) => {
     setIsOpen(!isOpen)
   }
 
-  React.useEffect(()=>{
+  React.useEffect(() => {
     setTimeout(() => {
-        setVisible(true)
+      setVisible(true)
     }, 100)
   })
 
@@ -22,10 +22,7 @@ const Layout = ({children}) => {
       <div className="layout-index"></div>
       <Navbar toggleSidebar={toggleSidebar} />
       <Sidebar isOpen={isOpen} toggleSidebar={toggleSidebar} />
-      {visible &&
-      <>
-        {children}</>
-      }
+      {visible && <>{children}</>}
     </>
   )
 }
