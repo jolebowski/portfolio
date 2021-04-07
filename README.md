@@ -4,13 +4,13 @@ My portfolio built with [Gatsby][gatsby] and [Netlify CMS][netlifycms].
 
 ## 🖥 Install Locally
 
-Use the Gatsby CLI to create a new site, specifying the `gatsby-starter-foundation` starter.
+Use the Gatsby CLI to create a new site, specifying the `portfolio` starter.
 
 ```bash
 gatsby new portfolio https://github.com/jolebowski/portfolio
 ```
 
-[![Gatsby Starter Foundation Screenshot](static/assets/portfolio)](https://iamjomoreira.netlify.app/)
+[![My portfolio](static/assets/portfolio.jpg)](https://iamjomoreira.netlify.app/)
 
 ### Start developing
 
