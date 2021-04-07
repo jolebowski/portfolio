@@ -11,7 +11,7 @@ const Pagination = (props) => (
     <ul>
         {(props.previous && props.previous.frontmatter.template === 'project-post') && (
         <li style={{textAlign:"left"}}>
-            <Link to={`/${props.previous.frontmatter.slug}`} rel="prev">
+            <Link to={`/${props.previous.frontmatter.slug}/`} rel="prev">
                 <p>
                   <span className="icon -left"><RiArrowLeftLine/></span> 
                   <span className="page-title">{props.previous.frontmatter.title}</span>
@@ -21,7 +21,7 @@ const Pagination = (props) => (
         )}
         {(props.next && props.next.frontmatter.template === 'project-post') && (
         <li style={{textAlign:"right"}}>
-            <Link to={`/${props.next.frontmatter.slug}`} rel="next">
+            <Link to={`/${props.next.frontmatter.slug}/`} rel="next">
             <p>
               <span className="page-title">{props.next.frontmatter.title}</span>
               <span className="icon -right"><RiArrowRightLine/></span>

@@ -14,31 +14,21 @@ query MyQuery {
 }
 `
 
-
-
-
-// I KNOW WE CAN COMBINE IT !!!!!
-// export default ({ styleClass }) => {
-//   return (
-//     <ul className={`page-links ${styleClass ? styleClass : ""}`}>
-//       {tempLinks}
-//     </ul>
-//   )
-// }
-
 const Links = ({styleClass}) => {
-
-
 
 const { pathname } = useLocation()
 
   const { allMarkdownRemark } = useStaticQuery(pageQuery)
-  let linksProjects = {}
-    allMarkdownRemark.nodes.forEach((link, index) => {
-      const slug = `/${link.frontmatter.slug}`
+  let linksProjects = { 
+    id: 2,
+    text: "projects",
+    url:  "/jotrackercovid19/"
+  }
+
+    allMarkdownRemark.nodes.forEach((link) => {
+      const slug = `/${link.frontmatter.slug}/`
       const newLink = pathname === slug
       if(newLink){
-        console.log("toto")
         linksProjects = {
           id: 2,
           text: "projects",
@@ -47,30 +37,22 @@ const { pathname } = useLocation()
       }
     })
 
-    console.log(links)
-    console.log(linksProjects, "linksProjectslinksProjects")
-
     const links = [
       {
         id: 1,
         text: "home",
         url: "/",
       },
-      linksProjects ||
-      {
-        id: 2,
-        text: "projects",
-        url: "/jotrackercovid19",
-      },
+      linksProjects,
       {
         id: 3,
         text: "about me",
-        url: "/about",
+        url: "/about/",
       },
       {
         id: 4,
         text: "resume",
-        url: "/resume",
+        url: "/resume/",
       },
       {
         id: 5,
