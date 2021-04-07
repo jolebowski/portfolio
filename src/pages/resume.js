@@ -23,10 +23,10 @@ const Resume = () => {
 						<h4>Reezocar</h4>
 						<h5>Front end developer</h5>
 						<ol className="resume-list">
-							<li className="resume-item">Art Direction</li>
-							<li className="resume-item">Art Direction</li>
-							<li className="resume-item">Art Direction</li>
-							<li className="resume-item">Art Direction</li>
+							<li className="resume-item">Adding new features to CRM</li>
+							<li className="resume-item">Project management with scrum method</li>
+							<li className="resume-item">Use of Api</li
+							>
 						</ol>
 					</li>
 					<li className="resume-sub-category">
@@ -34,10 +34,10 @@ const Resume = () => {
 						<h4>Wannaspeak</h4>
 						<h5>Front end developer</h5>
 						<ol className="resume-list">
-							<li className="resume-item">Art Direction</li>
-							<li className="resume-item">Art Direction</li>
-							<li className="resume-item">Art Direction</li>
-							<li className="resume-item">Art Direction</li>
+							<li className="resume-item">Project management with scrum method</li>
+							<li className="resume-item">Developpement</li>
+							<li className="resume-item">Use of Api</li>
+							<li className="resume-item">Unit test</li>
 						</ol>
 					</li>
 					<li className="resume-sub-category">
@@ -45,10 +45,9 @@ const Resume = () => {
 						<h4>Reparizy</h4>
 						<h5>Front end developer</h5>
 						<ol className="resume-list">
-							<li className="resume-item">Lorem Ipsum</li>
-							<li className="resume-item">Lorem Ipsum</li>
-							<li className="resume-item">Lorem Ipsum</li>
-							<li className="resume-item">Lorem Ipsum</li>
+							<li className="resume-item">Use of Filezilia</li>
+							<li className="resume-item">Creation of website</li>
+							<li className="resume-item">Developpement</li>
 						</ol>
 					</li>
 					<li className="resume-sub-category">
@@ -56,10 +55,8 @@ const Resume = () => {
 						<h4>Wekean</h4>
 						<h5>Front end developer</h5>
 						<ol className="resume-list">
-							<li className="resume-item">Lorem Ipsum</li>
-							<li className="resume-item">Lorem Ipsum</li>
-							<li className="resume-item">Lorem Ipsum</li>
-							<li className="resume-item">Lorem Ipsum</li>
+							<li className="resume-item">Maintenance</li>
+							<li className="resume-item">Developpement</li>
 						</ol>
 					</li>
 				</ol>
@@ -107,35 +104,17 @@ const Resume = () => {
 					<li className="resume-sub-category">
 						<h3>2020</h3>
 						<h4>Next Formation</h4>
-						<h5>Architecte Logiciel</h5>
-						<ol className="resume-list">
-							<li className="resume-item">Lorem Ipsum</li>
-							<li className="resume-item">Lorem Ipsum</li>
-							<li className="resume-item">Lorem Ipsum</li>
-							<li className="resume-item">Lorem Ipsum</li>
-						</ol>
+						<h5>Architecte Logiciel (got it)</h5>
 					</li>
 					<li className="resume-sub-category">
 						<h3>2018 - 2019</h3>
 						<h4>Etna</h4>
 						<h5>Bachelor</h5>
-						<ol className="resume-list">
-							<li className="resume-item">Lorem Ipsum</li>
-							<li className="resume-item">Lorem Ipsum</li>
-							<li className="resume-item">Lorem Ipsum</li>
-							<li className="resume-item">Lorem Ipsum</li>
-						</ol>
 					</li>
 					<li className="resume-sub-category">
 						<h3>2015 - 2017</h3>
 						<h4>Samsung Campus</h4>
 						<h5>Web developer certificate level II</h5>
-						<ol className="resume-list">
-							<li className="resume-item">Art Direction</li>
-							<li className="resume-item">Art Direction</li>
-							<li className="resume-item">Art Direction</li>
-							<li className="resume-item">Art Direction</li>
-						</ol>
 					</li>
 				</ol>
 			</li>
