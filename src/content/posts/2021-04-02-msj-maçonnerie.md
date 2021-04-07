@@ -26,4 +26,3 @@ I built this project for my father who wanted a website to showcase these works.
 </div>
 
 ![msj maconnerie](/assets/msj-maconnerie-1.jpg)
-

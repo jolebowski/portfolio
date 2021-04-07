@@ -24,6 +24,3 @@ I built this project to test and use [Gatsby](https://www.gatsbyjs.com/) for the
 ![john sports](/assets/john-sports-1.jpg)
 
 </div>
-
-
-

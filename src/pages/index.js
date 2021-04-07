@@ -3,11 +3,10 @@ import * as React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-
 const IndexPage = () => {
   return (
     <Layout>
-    <SEO title="Home" description="this is our home page" />
+      <SEO title="Home" description="this is our home page" />
       <header className="header-fixed">
         <div className="fixed-header animate-background">
           <div className="header-container">
@@ -18,7 +17,8 @@ const IndexPage = () => {
               </h1>
             </div>
             <h2 className="animate-subtitle">
-              I build websites with a focus on responsive design and accessibility.
+              I build websites with a focus on responsive design and
+              accessibility.
             </h2>
           </div>
         </div>
