@@ -1,7 +1,7 @@
 ---
 template: project-post
 title: MSJ Maçonnerie
-slug: Msj-Maçonnerie
+slug: Msj-Maconnerie
 date: 2021-04-02 11:47
 description: |+
   <br/>
