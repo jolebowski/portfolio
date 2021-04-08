@@ -27,15 +27,19 @@ const SEO = ({ title, description }) => {
       <meta name="twitter:creator" content={twitterUsername} />
       <meta name="twitter:title" content={siteTitle} />
       <meta name="twitter:description" content={siteDesc} />
-      <meta name="twitter:image" content={image}/>
+      <meta name="twitter:image" content={image} />
 
-
-
-      <meta property="og:url" content="http://iamjomoreira.netlify.app/"/>
-      <meta property="og:type" content="website"/>
-      <meta property="og:title" content="This is Jordan Moreira Portfolio Site"/>
-      <meta property="og:description" content={siteDesc}/>
-      <meta property="og:image" content="https://github.com/jolebowski/portfolio/blob/master/static/assets/portfolio.jpg"/>
+      <meta property="og:url" content="http://iamjomoreira.netlify.app/" />
+      <meta property="og:type" content="website" />
+      <meta
+        property="og:title"
+        content="This is Jordan Moreira Portfolio Site"
+      />
+      <meta property="og:description" content={siteDesc} />
+      <meta
+        property="og:image"
+        content="https://github.com/jolebowski/portfolio/blob/master/static/assets/portfolio.jpg"
+      />
     </Helmet>
   )
 }
