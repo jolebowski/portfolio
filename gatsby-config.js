@@ -10,6 +10,7 @@ module.exports = {
     description: "This is Jordan Moreira Portfolio Site",
     author: "@jolebowski",
     twitterUsername: "@iamjomoreira",
+    image: "/static/assets/portfolio.jpg",
   },
   plugins: [
     {
