@@ -22,13 +22,13 @@ const SEO = ({ title, description }) => {
   return (
     <Helmet htmlAttributes={{ lang: "en" }} title={`${title} | ${siteTitle}`}>
       <meta name="description" content={description || siteDesc} />
-      <meta name="image" content="https://github.com/jolebowski/portfolio/blob/master/static/assets/portfolio.jpg" />
+      <meta name="image" content={image} />
       {/* twitter cards */}
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:creator" content={twitterUsername} />
       <meta name="twitter:title" content={siteTitle} />
       <meta name="twitter:description" content={siteDesc} />
-      <meta name="twitter:image" content="https://github.com/jolebowski/portfolio/blob/master/static/assets/portfolio.jpg" />
+      <meta name="twitter:image" content={image} />
 
       <meta property="og:url" content="http://iamjomoreira.netlify.app/" />
       <meta property="og:type" content="website" />
@@ -39,7 +39,7 @@ const SEO = ({ title, description }) => {
       <meta property="og:description" content={siteDesc} />
       <meta
         property="og:image"
-        content="https://github.com/jolebowski/portfolio/blob/master/static/assets/portfolio.jpg"
+        content={image}
       />
     </Helmet>
   )
