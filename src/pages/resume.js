@@ -95,6 +95,13 @@ const Resume = () => {
                   <li className="resume-item">React Native</li>
                 </ol>
               </li>
+              <li className="resume-sub-category">
+                <h4>Environment</h4>
+                <ol className="resume-list">
+                  <li className="resume-item">Linux</li>
+                  <li className="resume-item">MacOs</li>
+                </ol>
+              </li>
             </ol>
           </li>
           <li className="resume-category">
