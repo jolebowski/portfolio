@@ -1,6 +1,6 @@
 # Foundation
 
-My portfolio built with [Gatsby][gatsby] and [Netlify CMS](https://www.netlifycms.org/).
+My portfolio built with [Gatsby](https://www.gatsbyjs.com/) and [Netlify CMS](https://www.netlifycms.org/).
 
 ## 🖥 Install Locally
 
