@@ -4,14 +4,10 @@ const netlifyCmsPaths = {
     cmsConfig: `/static/admin/config.yml`,
   },
 }
+const settings = require("./src/util/site.json")
+
 module.exports = {
-  siteMetadata: {
-    title: "Jordan Portfolio",
-    description: "This is Jordan Moreira Portfolio Site",
-    author: "@jolebowski",
-    twitterUsername: "@iamjomoreira",
-    image: "/assets/portfolio.jpg",
-  },
+  siteMetadata: settings.meta,
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
