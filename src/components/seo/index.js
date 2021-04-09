@@ -22,7 +22,7 @@ const SEO = ({ title, description, image, article }) => {
     image: `${siteUrl}${image || defaultImage}`,
     url: `${siteUrl}${pathname}`,
   }
-
+console.log(seo.image, "seoooo")
   return (
     <Helmet title={`${seo.title} | ${defaultTitle}`}>
       <html lang="en-US" />
@@ -33,6 +33,8 @@ const SEO = ({ title, description, image, article }) => {
       <meta name="image" content={seo.image} />
 
       {seo.url && <meta property="og:url" content={seo.url} />}
+
+      <meta property="og:type" content="website" />
 
       {(article ? true : null) && <meta property="og:type" content="article" />}
 
