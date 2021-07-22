@@ -13,7 +13,6 @@ description: |
   <button name="button" className="button primary">Graphql</button>
 featuredImage: /assets/jolesbonspronos.jpg
 ---
-
 ### A demo of the project is available on this link : [jolesbonspronos](https://deploy-preview-4--jolesbonspronos.netlify.app/)
 
 This is a personal project that I wanted to do from A to Z. For the project I used all the technologies I learned during my trainings.
@@ -30,4 +29,4 @@ This is a personal project that I wanted to do from A to Z. For the project I us
 
 </div>
 
-![jolesbonspronos](/assets/jolesbonspronos-2.jpg)
+![jolesbonspronos](/assets/jolesbonspronos-4.jpg)
