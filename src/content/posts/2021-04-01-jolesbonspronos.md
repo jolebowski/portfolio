@@ -19,19 +19,11 @@ This is a personal project that I wanted to do from A to Z. For the project I us
 
 <div class="kg-width-full">
 
-![jolesbonspronos]()
-
-</div>
-
-<div class="kg-width-full">
-
 ![jolesbonspronos](/assets/jolesbonspronos-3.jpg)
 
 </div>
 
 <div class="kg-width-full">
-
-![jolesbonspronos]()
 
 ![jolesbonspronos](/assets/jolesbonspronos-4.jpg)
 
