@@ -12,7 +12,7 @@ const IndexPage = () => {
           <div className="header-container">
             <div className="header-text">
               <h1>
-                <p className="animate-text-1">Front End</p>
+                <p className="animate-text-1">Front End,</p>
                 <p className="animate-text-2">Creative</p>
               </h1>
             </div>
