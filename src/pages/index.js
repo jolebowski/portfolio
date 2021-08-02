@@ -12,13 +12,12 @@ const IndexPage = () => {
           <div className="header-container">
             <div className="header-text">
               <h1>
-                <p className="animate-text-1">Front End Developer,</p>
-                <p className="animate-text-2">Software achitect</p>
+                <p className="animate-text-1">Front End</p>
+                <p className="animate-text-2">Creative</p>
               </h1>
             </div>
             <h2 className="animate-subtitle">
-              I build websites with a focus on responsive design and
-              accessibility.
+                I'm a creator that happens to use code to develop stuff out of thin air.
             </h2>
           </div>
         </div>
