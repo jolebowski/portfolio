@@ -2,6 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 
 import { FaAlignRight } from "react-icons/fa"
+import Toggle from "../Toggle"
 
 const Navbar = ({ toggleSidebar }) => {
   return (
@@ -13,6 +14,7 @@ const Navbar = ({ toggleSidebar }) => {
           </Link>
         </div>
       </div>
+      <Toggle />
       <button type="button" className="toggle-btn" onClick={toggleSidebar}>
         <FaAlignRight></FaAlignRight>
       </button>
