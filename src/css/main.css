@@ -1043,3 +1043,8 @@ video {
   margin-top: 5rem;
   margin-bottom: 5rem;
 }
+/*** TOGGLE **/
+
+.fa-sun {
+  color: #fab715;
+}
