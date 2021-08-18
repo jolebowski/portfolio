@@ -68,6 +68,7 @@ module.exports = {
       },
     },
     `gatsby-plugin-netlify-cms`,
+    `gatsby-plugin-dark-mode`,
     {
       resolve: `gatsby-remark-video`,
       options: {
