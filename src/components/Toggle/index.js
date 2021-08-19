@@ -11,7 +11,7 @@ export default function Toggle() {
         <div>
           <FontAwesomeIcon
             icon={theme === "dark" ? faSun : faMoon}
-            style={{ fontSize: 22 }}
+            style={{ fontSize: 22, marginRight: 10 }}
             onClick={() =>
               theme === "dark" ? toggleTheme("light") : toggleTheme("dark")
             }
