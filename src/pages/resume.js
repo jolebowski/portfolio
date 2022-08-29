@@ -23,7 +23,7 @@ const Resume = () => {
                 <h5>React Native developer</h5>
                 <ol className="resume-list">
                   <li className="resume-item">
-                    implementation, testing, deployment, documentation and
+                    Implementation, testing, deployment, documentation and
                     maintenance of the features
                   </li>
                   <li className="resume-item">Definition of the data flow</li>
@@ -38,9 +38,9 @@ const Resume = () => {
                 <h4>Artifexio</h4>
                 <h5>Front end developer</h5>
                 <ol className="resume-list">
+                  <li className="resume-item">Adding new features</li>
                   <li className="resume-item">
-                    Adding new features Reworking user interfaces Setting up an
-                    admin interface
+                    Reworking user interfaces Setting up an admin interface
                   </li>
                 </ol>
               </li>
@@ -73,7 +73,7 @@ const Resume = () => {
               <li className="resume-sub-category">
                 <h4>Front end</h4>
                 <ol className="resume-list">
-                  <li className="resume-item">React Js</li>
+                  <li className="resume-item">React</li>
                   <li className="resume-item">Redux</li>
                   <li className="resume-item">JavaScript</li>
                   <li className="resume-item">TypeScript</li>
@@ -109,6 +109,12 @@ const Resume = () => {
                 <ol className="resume-list">
                   <li className="resume-item">Linux</li>
                   <li className="resume-item">MacOs</li>
+                </ol>
+              </li>
+              <li className="resume-sub-category">
+                <h4>Language</h4>
+                <ol className="resume-list">
+                  <li className="resume-item">English level A1/B2</li>
                 </ol>
               </li>
             </ol>

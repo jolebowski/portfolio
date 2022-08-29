@@ -36,11 +36,11 @@ const About = () => {
               </figure>
             </div>
             <div className="column" style={{ flexBasis: "60.66%" }}>
-              <h2>My name is Jordan Moreira</h2>
+              <h2>My name's Jordan Moreira</h2>
               <p>
-                I’m a front end developer born and raised in Meaux, France. I’m
-                fascinated by web design and development, performance
-                optimization and building helpful things on the web.
+                I’m a front end developer live in Le Mans, France. I’m
+                fascinated by development, performance optimization and building
+                helpful things on the web.
               </p>
             </div>
           </div>
