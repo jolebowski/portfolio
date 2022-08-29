@@ -18,7 +18,34 @@ const Resume = () => {
             <h2 className="resume-category-title">Experience</h2>
             <ol>
               <li className="resume-sub-category">
-                <h3>2018 - 2020</h3>
+                <h3>2021 - 2022</h3>
+                <h4>Viseo</h4>
+                <h5>React Native developer</h5>
+                <ol className="resume-list">
+                  <li className="resume-item">
+                    implementation, testing, deployment, documentation and
+                    maintenance of the features
+                  </li>
+                  <li className="resume-item">Definition of the data flow</li>
+                  <li className="resume-item">
+                    Follow-up, prioritization and delivery of tasks following
+                    the Scrum methodology
+                  </li>
+                </ol>
+              </li>
+              <li className="resume-sub-category">
+                <h3>2020 - 2021</h3>
+                <h4>Artifexio</h4>
+                <h5>Front end developer</h5>
+                <ol className="resume-list">
+                  <li className="resume-item">
+                    Adding new features Reworking user interfaces Setting up an
+                    admin interface
+                  </li>
+                </ol>
+              </li>
+              <li className="resume-sub-category">
+                <h3>2019 - 2020</h3>
                 <h4>Reezocar</h4>
                 <h5>Front end developer</h5>
                 <ol className="resume-list">
@@ -30,32 +57,12 @@ const Resume = () => {
                 </ol>
               </li>
               <li className="resume-sub-category">
-                <h3>2018</h3>
-                <h4>Wannaspeak</h4>
-                <h5>Front end developer</h5>
-                <ol className="resume-list">
-                  <li className="resume-item">
-                    Project management with scrum method
-                  </li>
-                  <li className="resume-item">Use of Api</li>
-                  <li className="resume-item">Unit test</li>
-                </ol>
-              </li>
-              <li className="resume-sub-category">
                 <h3>2016 - 2018</h3>
                 <h4>Reparizy</h4>
-                <h5>Front end developer</h5>
+                <h5>Web developer</h5>
                 <ol className="resume-list">
                   <li className="resume-item">Use of Filezilia</li>
                   <li className="resume-item">Creation of website</li>
-                </ol>
-              </li>
-              <li className="resume-sub-category">
-                <h3>2016 - 2017</h3>
-                <h4>Wekean</h4>
-                <h5>Front end developer</h5>
-                <ol className="resume-list">
-                  <li className="resume-item">Maintenance</li>
                 </ol>
               </li>
             </ol>
@@ -69,8 +76,10 @@ const Resume = () => {
                   <li className="resume-item">React Js</li>
                   <li className="resume-item">Redux</li>
                   <li className="resume-item">JavaScript</li>
+                  <li className="resume-item">TypeScript</li>
                   <li className="resume-item">HTML</li>
                   <li className="resume-item">CSS</li>
+                  <li className="resume-item">Tailwind CSS</li>
                 </ol>
               </li>
               <li className="resume-sub-category">
@@ -108,14 +117,9 @@ const Resume = () => {
             <h2 className="resume-category-title">Cursus</h2>
             <ol>
               <li className="resume-sub-category">
-                <h3>2020</h3>
+                <h3>2017 - 2019</h3>
                 <h4>Next Formation</h4>
-                <h5>Software achitect (got it)</h5>
-              </li>
-              <li className="resume-sub-category">
-                <h3>2018 - 2019</h3>
-                <h4>Etna</h4>
-                <h5>Bachelor</h5>
+                <h5>Software achitect</h5>
               </li>
               <li className="resume-sub-category">
                 <h3>2015 - 2017</h3>
