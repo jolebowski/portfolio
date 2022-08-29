@@ -28,6 +28,11 @@ const Pagination = props => (
             </Link>
           </li>
         )}
+      <Link to="/projects" rel="prev">
+        <p>
+          <span className="page-title">Projects</span>
+        </p>
+      </Link>
       {props.next && props.next.frontmatter.template === "project-post" && (
         <li style={{ textAlign: "right" }}>
           <Link to={`/${props.next.frontmatter.slug}/`} rel="next">
@@ -103,7 +108,6 @@ const Post = ({ data, pageContext }) => {
                 className="kg-image"
                 image={Image}
                 alt={frontmatter.title + " - Featured image"}
-                className="featured-image"
               />
             </div>
           ) : (

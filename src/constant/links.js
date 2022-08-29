@@ -2,47 +2,18 @@ import React from "react"
 import { Link, graphql, useStaticQuery } from "gatsby"
 import { useLocation } from "@reach/router"
 
-export const pageQuery = graphql`
-  query MyQuery {
-    allMarkdownRemark {
-      nodes {
-        frontmatter {
-          slug
-        }
-      }
-    }
-  }
-`
-
 const Links = ({ styleClass }) => {
-  const { pathname } = useLocation()
-
-  const { allMarkdownRemark } = useStaticQuery(pageQuery)
-  let linksProjects = {
-    id: 2,
-    text: "projects",
-    url: "/jotrackercovid19/",
-  }
-
-  allMarkdownRemark.nodes.forEach(link => {
-    const slug = `/${link.frontmatter.slug}/`
-    const newLink = pathname === slug
-    if (newLink) {
-      linksProjects = {
-        id: 2,
-        text: "projects",
-        url: slug,
-      }
-    }
-  })
-
   const links = [
     {
       id: 1,
       text: "home",
       url: "/",
     },
-    linksProjects,
+    {
+      id: 2,
+      text: "projects",
+      url: "/projects/",
+    },
     {
       id: 3,
       text: "about me",

@@ -6,7 +6,7 @@ import SEO from "../components/seo"
 const IndexPage = () => {
   return (
     <Layout>
-      <SEO title="Home" description="this is our home page" />
+      <SEO title="Home" description="this is home page" />
       <header className="header-fixed">
         <div className="fixed-header animate-background">
           <div className="header-container">
@@ -17,7 +17,8 @@ const IndexPage = () => {
               </h1>
             </div>
             <h2 className="animate-subtitle">
-                I'm a creator that happens to use code to develop stuff out of thin air.
+              I'm a creator that happens to use code to develop stuff out of
+              thin air.
             </h2>
           </div>
         </div>
