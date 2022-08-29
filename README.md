@@ -7,6 +7,7 @@ My portfolio built with [Gatsby](https://www.gatsbyjs.com/) and [Netlify CMS](ht
 Use the Gatsby CLI to create a new site, specifying the `portfolio` starter.
 
 ```bash
+npm install -g gatsby-cli
 gatsby new portfolio https://github.com/jolebowski/portfolio
 ```
 
@@ -18,6 +19,7 @@ Navigate into your new site’s directory and start it up.
 
 ```shell
 cd portfolio/
+npm install
 gatsby develop
 ```
 
