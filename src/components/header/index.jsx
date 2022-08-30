@@ -1,4 +1,4 @@
 import React from "react"
-import SEO from "../components/seo"
+import SEO from "../seo"
 
 export default () => <SEO />
