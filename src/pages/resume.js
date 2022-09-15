@@ -57,13 +57,9 @@ const Resume = () => {
                 </ol>
               </li>
               <li className="resume-sub-category">
-                <h3>2016 - 2018</h3>
+                <h3>2017 - 2018</h3>
                 <h4>Reparizy</h4>
-                <h5>Web developer</h5>
-                <ol className="resume-list">
-                  <li className="resume-item">Use of Filezilia</li>
-                  <li className="resume-item">Creation of website</li>
-                </ol>
+                <h5>Co-founder</h5>
               </li>
             </ol>
           </li>
